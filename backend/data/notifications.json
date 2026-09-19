@@ -1,0 +1,344 @@
+[
+  {
+    "id": "c8e1209e-df08-4e93-b68d-d1ca7cda21d4",
+    "userId": "4cc2154f-9fb5-4670-af02-a8931d86e281",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Test Candidate, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:40:59.289Z"
+  },
+  {
+    "id": "8bd5f567-efa0-42cc-8716-fab476e3f6c3",
+    "userId": "3db83a3a-eeb0-41b2-9bde-6581fbfbfe8e",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Test Candidate, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:41:46.488Z"
+  },
+  {
+    "id": "9a31721b-e982-4c9a-b527-8645980fae4a",
+    "userId": "148c3d1b-9196-4fae-a550-1713ee7c4729",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Test Candidate, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:48:36.736Z"
+  },
+  {
+    "id": "7010c9d7-2ed8-4244-978b-8e029b892b41",
+    "userId": "5ceb6792-e460-4656-be84-9939296dfa43",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Test Recruiter, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:48:36.818Z"
+  },
+  {
+    "id": "8a19abfc-7bf6-4748-be00-18212f9fe570",
+    "userId": "ce84e49e-052d-4227-9d57-b81e2dbf1de5",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:49:49.002Z"
+  },
+  {
+    "id": "ebb8b125-f5e7-452d-827b-fc0b35e9fc29",
+    "userId": "4ec161e1-6455-4e5f-8fff-3663c5d157d4",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:49:49.161Z"
+  },
+  {
+    "id": "78862124-8c3d-43ba-87c3-5ae30fcc5db3",
+    "userId": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:50:47.726Z"
+  },
+  {
+    "id": "8a57149c-3151-4434-9b79-fa9ce4571d5b",
+    "userId": "1e6a93f4-c9dd-4d1e-881a-d2851fcc0afe",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:50:47.869Z"
+  },
+  {
+    "id": "29385031-73d7-4291-88f9-fb78add70b6e",
+    "userId": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T08:50:47.961Z"
+  },
+  {
+    "id": "0bff060d-1078-44bf-acd1-d02b84a028ff",
+    "userId": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T08:50:47.978Z"
+  },
+  {
+    "id": "d3bf18fa-7662-43a3-aad2-20773e9ee2a2",
+    "userId": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T08:50:47.989Z"
+  },
+  {
+    "id": "f9c279ce-0e42-41ab-806a-ea145c43e1b8",
+    "userId": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:52:10.920Z"
+  },
+  {
+    "id": "e04040a5-a3fc-418e-8b98-c4358292ab92",
+    "userId": "0f166eff-631e-48b7-837e-ac698d965879",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T08:52:11.111Z"
+  },
+  {
+    "id": "c3ef7a03-b371-4ea3-8c8c-3116420381bb",
+    "userId": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T08:52:11.199Z"
+  },
+  {
+    "id": "10115ae4-aa5e-4d00-ae42-5613b219335f",
+    "userId": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T08:52:11.210Z"
+  },
+  {
+    "id": "9cefa3ad-1d70-4726-a67f-a356285c8af7",
+    "userId": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T08:52:11.225Z"
+  },
+  {
+    "id": "e0248b50-4f56-48f6-8172-02f2df24f449",
+    "userId": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:00:57.330Z"
+  },
+  {
+    "id": "8bff3d39-26bc-496e-be85-f511659f0857",
+    "userId": "f04a856e-116e-4e42-b455-c2e66ac77c65",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:00:57.518Z"
+  },
+  {
+    "id": "dc64a97c-e557-40dc-8b02-7f70b90bec6e",
+    "userId": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T09:00:57.628Z"
+  },
+  {
+    "id": "bb682805-8c20-404b-9cad-157021bce73f",
+    "userId": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T09:00:57.649Z"
+  },
+  {
+    "id": "6c2ba96d-60b0-40b9-a2e9-c980a2cf4b86",
+    "userId": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T09:00:57.664Z"
+  },
+  {
+    "id": "e97a0d75-9611-41ff-8e3e-8accd8439cae",
+    "userId": "acef90b2-acc0-4169-a9af-bcd395a51a92",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi tictac, your account has been created successfully. Start exploring jobs!",
+    "read": true,
+    "createdAt": "2026-09-19T09:05:43.698Z"
+  },
+  {
+    "id": "d196eae5-d418-4e48-9d5b-0b535c35df6c",
+    "userId": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:14:37.171Z"
+  },
+  {
+    "id": "c7de8f45-4f53-4413-8956-a8cf4d37de36",
+    "userId": "11ce3149-fc0f-4ce8-9b73-99574f5fa274",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:14:37.356Z"
+  },
+  {
+    "id": "a2a2614f-b174-4bd5-8b93-e3083f37e7d6",
+    "userId": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T09:14:37.425Z"
+  },
+  {
+    "id": "c690f424-b043-435a-9920-bdf283627a80",
+    "userId": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T09:14:37.449Z"
+  },
+  {
+    "id": "dbedf440-1ee5-4a1f-9cb1-3561d365790b",
+    "userId": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T09:14:37.465Z"
+  },
+  {
+    "id": "fd62a4a3-262c-462f-a26c-e33d2db813df",
+    "userId": "412476dd-132c-467d-9725-798511171b7d",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:17:28.549Z"
+  },
+  {
+    "id": "d23bc09c-dd08-40b6-a090-61c7355771ec",
+    "userId": "da3f1b6c-b684-47f8-a641-cbac5bf506c7",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T09:17:28.730Z"
+  },
+  {
+    "id": "ce9d0f1d-c0f3-4f7e-b15b-fbd8d52dea18",
+    "userId": "412476dd-132c-467d-9725-798511171b7d",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T09:17:28.826Z"
+  },
+  {
+    "id": "f9dc4cb0-3223-4b0c-a72a-fc69c39316a2",
+    "userId": "412476dd-132c-467d-9725-798511171b7d",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T09:17:28.844Z"
+  },
+  {
+    "id": "c8b877c0-a074-4bad-9938-809e1cd36245",
+    "userId": "412476dd-132c-467d-9725-798511171b7d",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T09:17:28.867Z"
+  },
+  {
+    "id": "620705d9-409e-497a-81f0-afd36fb13cd3",
+    "userId": "b89b50f7-7bf3-499f-a2ad-2b4575ee5c45",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Alex Morgan, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T14:17:31.398Z"
+  },
+  {
+    "id": "1cd58957-cb78-4048-803e-03ad3ddb8ec9",
+    "userId": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Candidate User, your account has been created successfully. Start exploring jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T14:20:04.027Z"
+  },
+  {
+    "id": "46de73a2-82db-4dd5-a6f3-bb50e99425cd",
+    "userId": "8480227f-9664-4cb4-b754-e3b766793209",
+    "type": "welcome",
+    "title": "Welcome to CareerFlow!",
+    "message": "Hi Recruiter User, your account has been created successfully. Start posting jobs!",
+    "read": false,
+    "createdAt": "2026-09-19T14:20:04.300Z"
+  },
+  {
+    "id": "017619e0-8f0f-44a2-8d8f-024a03133045",
+    "userId": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "type": "application_submitted",
+    "title": "Application Submitted",
+    "message": "Your application for undefined at undefined has been submitted successfully.",
+    "read": false,
+    "createdAt": "2026-09-19T14:20:04.400Z"
+  },
+  {
+    "id": "5fa873a3-ccd4-4685-b657-bad5f6529687",
+    "userId": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "type": "status_change",
+    "title": "Application Status Updated",
+    "message": "Your application for undefined has been updated to: shortlisted",
+    "read": false,
+    "createdAt": "2026-09-19T14:20:04.422Z"
+  },
+  {
+    "id": "1f2a65b9-47d4-4995-8859-d2aa892db354",
+    "userId": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "type": "interview_scheduled",
+    "title": "Interview Scheduled",
+    "message": "You have an interview scheduled for Lead QA Engineer on 2026-10-01 at 11:00.",
+    "read": false,
+    "createdAt": "2026-09-19T14:20:04.436Z"
+  }
+]

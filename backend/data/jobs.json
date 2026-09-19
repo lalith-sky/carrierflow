@@ -1,0 +1,508 @@
+[
+  {
+    "title": "Lead Staff QA Engineer",
+    "company": "TechCorp",
+    "location": "Remote",
+    "type": "Full-time",
+    "category": "Software Development",
+    "salary": "$140,000 - $160,000",
+    "description": "Lead automated testing suite.",
+    "requirements": [
+      "Playwright",
+      "Node.js",
+      "CI/CD"
+    ],
+    "responsibilities": [
+      "Ensure 100% test coverage"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "experience": "Senior Level",
+    "id": 1789807847912,
+    "posted": "Just now",
+    "status": "active",
+    "createdBy": "1e6a93f4-c9dd-4d1e-881a-d2851fcc0afe",
+    "createdAt": "2026-09-19T08:50:47.912Z",
+    "updatedAt": "2026-09-19T08:50:47.924Z"
+  },
+  {
+    "title": "Lead QA Engineer",
+    "company": "TechCorp",
+    "location": "Remote",
+    "type": "Full-time",
+    "category": "Software Development",
+    "salary": "$140,000 - $160,000",
+    "description": "Lead automated testing suite.",
+    "requirements": [
+      "Playwright",
+      "Node.js",
+      "CI/CD"
+    ],
+    "responsibilities": [
+      "Ensure 100% test coverage"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "experience": "Senior Level",
+    "id": 1789807789192,
+    "posted": "Just now",
+    "status": "active",
+    "createdBy": "4ec161e1-6455-4e5f-8fff-3663c5d157d4",
+    "createdAt": "2026-09-19T08:49:49.192Z",
+    "updatedAt": "2026-09-19T08:49:49.192Z"
+  },
+  {
+    "title": "Senior Integration Tester",
+    "company": "TechCorp",
+    "location": "Remote",
+    "type": "Full-time",
+    "category": "Software Development",
+    "salary": "$120,000 - $140,000",
+    "description": "Testing the entire application stack end-to-end.",
+    "requirements": [
+      "Node.js",
+      "Express",
+      "React"
+    ],
+    "responsibilities": [
+      "Write integration scripts"
+    ],
+    "skills": [
+      "Node.js",
+      "React"
+    ],
+    "experience": "Senior Level",
+    "id": 1789807716843,
+    "posted": "Just now",
+    "status": "active",
+    "createdBy": "5ceb6792-e460-4656-be84-9939296dfa43",
+    "createdAt": "2026-09-19T08:48:36.843Z",
+    "updatedAt": "2026-09-19T08:48:36.843Z"
+  },
+  {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 1,
+    "title": "Senior Frontend Developer",
+    "company": "TechNova",
+    "location": "Remote / New York",
+    "salary": "$120k - $160k",
+    "type": "Full-time",
+    "description": "We're looking for an experienced Frontend Developer with expertise in React and modern UI/UX principles. Join our dynamic team building next-generation web applications.",
+    "posted": "2 days ago",
+    "category": "Development"
+  },
+  {
+    "skills": [
+      "Figma",
+      "UI/UX",
+      "Adobe Suite"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 2,
+    "title": "Product Designer",
+    "company": "CreativeCloud",
+    "location": "San Francisco",
+    "salary": "$100k - $140k",
+    "type": "Full-time",
+    "description": "Design beautiful interfaces for millions of users. We need a creative mind who can translate complex requirements into intuitive designs.",
+    "posted": "5 hours ago",
+    "category": "Design"
+  },
+  {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 3,
+    "title": "Full Stack Engineer",
+    "company": "DataFlow Systems",
+    "location": "Remote",
+    "salary": "$130k - $170k",
+    "type": "Full-time",
+    "description": "Build scalable backend systems and elegant frontends. Experience with Node.js, React, and cloud platforms required.",
+    "posted": "1 day ago",
+    "category": "Development"
+  },
+  {
+    "skills": [
+      "SEO",
+      "Content Strategy",
+      "Analytics"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 4,
+    "title": "Marketing Manager",
+    "company": "GrowthLabs",
+    "location": "Austin, TX",
+    "salary": "$90k - $120k",
+    "type": "Full-time",
+    "description": "Lead our marketing initiatives and drive user acquisition. Experience with digital marketing, SEO, and content strategy required.",
+    "posted": "3 days ago",
+    "category": "Marketing"
+  },
+  {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 5,
+    "title": "DevOps Engineer",
+    "company": "CloudScale",
+    "location": "Remote / Seattle",
+    "salary": "$140k - $180k",
+    "type": "Full-time",
+    "description": "Manage and optimize our cloud infrastructure. Experience with AWS, Docker, Kubernetes, and CI/CD pipelines essential.",
+    "posted": "1 week ago",
+    "category": "Development"
+  },
+  {
+    "skills": [
+      "Figma",
+      "UI/UX",
+      "Adobe Suite"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 6,
+    "title": "UI/UX Designer",
+    "company": "DesignStudio Pro",
+    "location": "Los Angeles",
+    "salary": "$95k - $130k",
+    "type": "Full-time",
+    "description": "Create stunning user experiences for web and mobile applications. Strong portfolio and Figma expertise required.",
+    "posted": "4 days ago",
+    "category": "Design"
+  },
+  {
+    "skills": [
+      "CRM",
+      "Negotiation",
+      "Lead Generation"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 7,
+    "title": "Sales Development Representative",
+    "company": "SalesPro Inc",
+    "location": "Boston",
+    "salary": "$70k - $90k",
+    "type": "Full-time",
+    "description": "Drive new business opportunities and build relationships with potential clients. Strong communication skills essential.",
+    "posted": "2 days ago",
+    "category": "Sales"
+  },
+  {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 8,
+    "title": "Data Scientist",
+    "company": "AI Insights",
+    "location": "Remote / San Francisco",
+    "salary": "$150k - $200k",
+    "type": "Full-time",
+    "description": "Analyze complex datasets and build machine learning models. PhD or Masters in Data Science, Statistics, or related field preferred.",
+    "posted": "6 days ago",
+    "category": "Development"
+  },
+  {
+    "skills": [
+      "SEO",
+      "Content Strategy",
+      "Analytics"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 9,
+    "title": "Content Writer",
+    "company": "MediaWorks",
+    "location": "Remote",
+    "salary": "$60k - $80k",
+    "type": "Contract",
+    "description": "Create engaging content for blogs, social media, and marketing materials. Strong writing portfolio required.",
+    "posted": "3 days ago",
+    "category": "Marketing"
+  },
+  {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "workMode": "Remote",
+    "experience": "3-5 years",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Deliver high-quality work on time",
+      "Participate in code reviews and design sessions"
+    ],
+    "requirements": [
+      "Strong problem-solving skills",
+      "Excellent communication",
+      "Relevant experience in the field"
+    ],
+    "preferredQualifications": [
+      "Experience with agile methodologies",
+      "Strong portfolio or GitHub profile"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "Learning Budget"
+    ],
+    "applicationDeadline": "2026-10-19",
+    "companyId": null,
+    "status": "active",
+    "createdAt": "2026-09-19T08:18:35.410Z",
+    "updatedAt": "2026-09-19T08:18:35.410Z",
+    "id": 10,
+    "title": "Mobile App Developer",
+    "company": "AppCraft",
+    "location": "Chicago",
+    "salary": "$110k - $150k",
+    "type": "Full-time",
+    "description": "Build native mobile applications for iOS and Android. Experience with React Native or Flutter is a plus.",
+    "posted": "1 day ago",
+    "category": "Development"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "4cc2154f-9fb5-4670-af02-a8931d86e281",
+    "name": "Test Candidate",
+    "email": "candidate_1789807259153@test.com",
+    "password": "$2b$10$ZrpqAsbNBeXaOpP2RDp4UenF1mxarK9SfvBAN3Hsb0Bii6MzIauii",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:40:59.286Z"
+  },
+  {
+    "id": "3db83a3a-eeb0-41b2-9bde-6581fbfbfe8e",
+    "name": "Test Candidate",
+    "email": "cand_1789807306376@test.com",
+    "password": "$2b$10$iddJLe/551jBaPou/2CXyOzEGyctg51YBBFT48aNXmGdRoSEOncci",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:41:46.484Z"
+  },
+  {
+    "id": "148c3d1b-9196-4fae-a550-1713ee7c4729",
+    "name": "Test Candidate",
+    "email": "cand_1789807716606@test.com",
+    "password": "$2b$10$hEyMV8.uvRU7Q41Y7Dejk.daF1K.u7zdfLYD36E/zEB3mewOrV9am",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:48:36.732Z"
+  },
+  {
+    "id": "5ceb6792-e460-4656-be84-9939296dfa43",
+    "name": "Test Recruiter",
+    "email": "rec_1789807716750@test.com",
+    "password": "$2b$10$vyTErcuDWFUgcgkC0tNCROxQbYNo/1Jm/zfORPyqimsMZDpseUWt2",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T08:48:36.815Z"
+  },
+  {
+    "id": "ce84e49e-052d-4227-9d57-b81e2dbf1de5",
+    "name": "Candidate User",
+    "email": "cand_1789807788900@test.com",
+    "password": "$2b$10$3U4Db9imZeczFFOCuY3Lzukm23t4W077MxfEKqQkgSjfX0P4ZXjMa",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:49:48.999Z"
+  },
+  {
+    "id": "4ec161e1-6455-4e5f-8fff-3663c5d157d4",
+    "name": "Recruiter User",
+    "email": "rec_1789807789090@test.com",
+    "password": "$2b$10$t60T4u0WpFqZmSUf7XXbJe9PmmdBRJnjAP88.CZcTSfw7/HZfg.F6",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T08:49:49.154Z"
+  },
+  {
+    "id": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "name": "Candidate User",
+    "email": "cand_1789807847616@test.com",
+    "password": "$2b$10$W9GqKeHciFpsOvfxQMOur.ht8VzlBfAM4c3DUv5PPiv0yQznrEA/a",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:50:47.722Z"
+  },
+  {
+    "id": "1e6a93f4-c9dd-4d1e-881a-d2851fcc0afe",
+    "name": "Recruiter User",
+    "email": "rec_1789807847811@test.com",
+    "password": "$2b$10$4r0vXchycG8vRjEBwWUDP.TBA.7qUmiq6JQZ4VwUgWl7AYEDcNcI.",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T08:50:47.865Z"
+  },
+  {
+    "id": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "name": "Candidate User",
+    "email": "cand_1789807930741@test.com",
+    "password": "$2b$10$ctxgtqq3hA98HzdmLwEYqufX/Pd5.l7PbZEtBWThvHrSvZ1I8XKPS",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T08:52:10.915Z"
+  },
+  {
+    "id": "0f166eff-631e-48b7-837e-ac698d965879",
+    "name": "Recruiter User",
+    "email": "rec_1789807931014@test.com",
+    "password": "$2b$10$muiM5Dxe1hMUJ8yZNS3U9OrJ.NZQE7l3/9LRORZlTkpDXuyAj9hSS",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T08:52:11.106Z"
+  },
+  {
+    "id": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "name": "Candidate User",
+    "email": "cand_1789808457202@test.com",
+    "password": "$2b$10$QRCTVw9PnxyiGLJduO5Xf.FI9keVk3q6/z8a7Jka7xXkG9eGFma72",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T09:00:57.328Z"
+  },
+  {
+    "id": "f04a856e-116e-4e42-b455-c2e66ac77c65",
+    "name": "Recruiter User",
+    "email": "rec_1789808457418@test.com",
+    "password": "$2b$10$c460G.blcHlb6BgRqUPthOzVctvDSZBQdVnrNW6cgbQNeCDHKbbo6",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T09:00:57.512Z"
+  },
+  {
+    "id": "acef90b2-acc0-4169-a9af-bcd395a51a92",
+    "name": "tictac",
+    "email": "tictac@gmail.com",
+    "password": "$2b$10$9lfsoJKzOR1DFDFLLXHh5.VwunuYbqhfvkf4BmkXEYaaiWCy8Jcfe",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T09:05:43.687Z"
+  },
+  {
+    "id": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "name": "Candidate User",
+    "email": "cand_1789809277019@test.com",
+    "password": "$2b$10$MJGjlude2Fnyp8eKS50K7O.6oKitZDv8wk10VDuROHqG42p5FlBpO",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T09:14:37.166Z"
+  },
+  {
+    "id": "11ce3149-fc0f-4ce8-9b73-99574f5fa274",
+    "name": "Recruiter User",
+    "email": "rec_1789809277269@test.com",
+    "password": "$2b$10$8aBc0BqJhnpp7Hw4PIdN7eQGAs0ZepqgcJ4ikaWtHFl47pDoURy9i",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T09:14:37.349Z"
+  },
+  {
+    "id": "412476dd-132c-467d-9725-798511171b7d",
+    "name": "Candidate User",
+    "email": "cand_1789809448389@test.com",
+    "password": "$2b$10$w.RR5aviGS.Zqu52PJCTzOjTn1UszJGM6rCSDxZ9xkFtl9XcE5aEO",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T09:17:28.545Z"
+  },
+  {
+    "id": "da3f1b6c-b684-47f8-a641-cbac5bf506c7",
+    "name": "Recruiter User",
+    "email": "rec_1789809448637@test.com",
+    "password": "$2b$10$ykJulUc.k5MSzjwIdZc5MuGE2ZjXqNlPx9pGxuYANhGNT0i0hO0Oa",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T09:17:28.724Z"
+  },
+  {
+    "id": "b89b50f7-7bf3-499f-a2ad-2b4575ee5c45",
+    "name": "Alex Morgan",
+    "email": "alex.candidate@example.com",
+    "password": "$2b$10$Qr//srSzsY3VUsEiYuVrAe3vlMcDPHwPteBLmGNaakDZajZtIRFNy",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T14:17:31.343Z"
+  },
+  {
+    "id": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "name": "Candidate User",
+    "email": "cand_1789827603804@test.com",
+    "password": "$2b$10$q690mSaAysqFp3hsCfNR.ujwzlzrODzpxFatsHjqQrjJENt8BCAHi",
+    "role": "candidate",
+    "company": "",
+    "createdAt": "2026-09-19T14:20:04.023Z"
+  },
+  {
+    "id": "8480227f-9664-4cb4-b754-e3b766793209",
+    "name": "Recruiter User",
+    "email": "rec_1789827604164@test.com",
+    "password": "$2b$10$tFHYofDbMfJ6Bz2Ex9oKceJAk8C2Y3GY6244fozCeKiFyS12zUFMi",
+    "role": "employer",
+    "company": "TechCorp",
+    "createdAt": "2026-09-19T14:20:04.291Z"
+  }
+]

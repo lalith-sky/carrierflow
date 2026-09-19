@@ -1,0 +1,79 @@
+[
+  {
+    "jobId": 1,
+    "jobTitle": "Senior Frontend Developer",
+    "company": "TechNova",
+    "name": "kkjhkhu",
+    "email": "ticrav@gmail.com",
+    "resume": null,
+    "coverLetter": "",
+    "id": 1789792433000,
+    "date": "2026-09-19T04:33:53.000Z"
+  },
+  {
+    "jobId": 1789807847912,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "79824f7b-7f99-462d-bd0d-7ca0c9f58552",
+    "userId": "045da264-9aa0-4415-915b-d166a97d1b72",
+    "email": "cand_1789807847616@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T08:50:47.958Z",
+    "updatedAt": "2026-09-19T08:50:47.974Z"
+  },
+  {
+    "jobId": 1789807931151,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "73ef69db-f164-439c-96dc-e428a42bced4",
+    "userId": "b58c5c85-10f5-40b1-969e-d3241adeedff",
+    "email": "cand_1789807930741@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T08:52:11.197Z",
+    "updatedAt": "2026-09-19T08:52:11.208Z"
+  },
+  {
+    "jobId": 1789808457574,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "6c67b638-a9b5-41d8-b6fe-decde5f4d7ba",
+    "userId": "5dc18ab4-9b7b-4798-ad4d-24a3ecb64aaa",
+    "email": "cand_1789808457202@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T09:00:57.626Z",
+    "updatedAt": "2026-09-19T09:00:57.646Z"
+  },
+  {
+    "jobId": 1789809277394,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "5e6fa01e-d8e5-482e-a172-3ab4ba0bb8f7",
+    "userId": "b4244a22-2980-4391-afcc-fd6d8626bd98",
+    "email": "cand_1789809277019@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T09:14:37.423Z",
+    "updatedAt": "2026-09-19T09:14:37.447Z"
+  },
+  {
+    "jobId": 1789809448783,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "f4f7a1ca-7efe-4f82-8c16-8926b2f23f35",
+    "userId": "412476dd-132c-467d-9725-798511171b7d",
+    "email": "cand_1789809448389@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T09:17:28.823Z",
+    "updatedAt": "2026-09-19T09:17:28.842Z"
+  },
+  {
+    "jobId": 1789827604350,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "de65e9cd-b6fc-45ff-a344-013b20d3af84",
+    "userId": "9da4b379-f510-4e57-ade9-e54396fb8e30",
+    "email": "cand_1789827603804@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T14:20:04.398Z",
+    "updatedAt": "2026-09-19T14:20:04.419Z"
+  }
+]

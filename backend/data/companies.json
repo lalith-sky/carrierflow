@@ -1,0 +1,119 @@
+[
+  {
+    "id": "comp_1",
+    "name": "TechNova",
+    "industry": "Technology",
+    "location": "New York, NY",
+    "website": "https://technova.io",
+    "size": "201-500",
+    "about": "Building next-generation web applications and cloud solutions.",
+    "logo": "",
+    "benefits": [
+      "Health Insurance",
+      "Remote Work",
+      "401(k)",
+      "Unlimited PTO"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.403Z"
+  },
+  {
+    "id": "comp_2",
+    "name": "CreativeCloud",
+    "industry": "Design & Technology",
+    "location": "San Francisco, CA",
+    "website": "https://creativecloud.co",
+    "size": "51-200",
+    "about": "Empowering creators with powerful design tools.",
+    "logo": "",
+    "benefits": [
+      "Stock Options",
+      "Gym Membership",
+      "Catered Meals"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.404Z"
+  },
+  {
+    "id": "comp_3",
+    "name": "DataFlow Systems",
+    "industry": "Data & Analytics",
+    "location": "Remote",
+    "website": "https://dataflow.dev",
+    "size": "51-200",
+    "about": "Transforming data into actionable insights.",
+    "logo": "",
+    "benefits": [
+      "Remote Work",
+      "Learning Budget",
+      "Flexible Hours"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.404Z"
+  },
+  {
+    "id": "comp_4",
+    "name": "CloudScale",
+    "industry": "Cloud Infrastructure",
+    "location": "Seattle, WA",
+    "website": "https://cloudscale.io",
+    "size": "501-1000",
+    "about": "Enterprise-grade cloud infrastructure solutions.",
+    "logo": "",
+    "benefits": [
+      "Health Insurance",
+      "RSUs",
+      "Parental Leave",
+      "Education Stipend"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.404Z"
+  },
+  {
+    "id": "comp_5",
+    "name": "AI Insights",
+    "industry": "Artificial Intelligence",
+    "location": "San Francisco, CA",
+    "website": "https://aiinsights.ai",
+    "size": "11-50",
+    "about": "Pushing the boundaries of machine learning and AI.",
+    "logo": "",
+    "benefits": [
+      "Equity",
+      "Remote Work",
+      "Conference Budget"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.404Z"
+  },
+  {
+    "id": "comp_6",
+    "name": "AppCraft",
+    "industry": "Mobile Development",
+    "location": "Chicago, IL",
+    "website": "https://appcraft.dev",
+    "size": "51-200",
+    "about": "Crafting beautiful mobile experiences.",
+    "logo": "",
+    "benefits": [
+      "Health Insurance",
+      "Flexible Schedule",
+      "Team Retreats"
+    ],
+    "createdBy": null,
+    "createdAt": "2026-09-19T08:18:35.404Z"
+  },
+  {
+    "id": "comp_48ef29c3",
+    "name": "TechCorp",
+    "industry": "",
+    "location": "",
+    "website": "",
+    "size": "",
+    "about": "",
+    "logo": "",
+    "benefits": [],
+    "createdBy": "4ec161e1-6455-4e5f-8fff-3663c5d157d4",
+    "createdAt": "2026-09-19T08:49:49.158Z"
+  }
+]
