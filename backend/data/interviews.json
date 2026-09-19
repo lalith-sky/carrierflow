@@ -94,5 +94,37 @@
     "recruiterId": "8480227f-9664-4cb4-b754-e3b766793209",
     "status": "Scheduled",
     "createdAt": "2026-09-19T14:20:04.433Z"
+  },
+  {
+    "applicationId": "aba10427-5a60-4ab0-a610-c8c496e8d655",
+    "candidateId": "db61aaf5-2097-4e43-a1fc-98b50cabce0d",
+    "candidateName": "Candidate User",
+    "candidateEmail": "cand_1789829517478@test.com",
+    "jobId": 1789829517817,
+    "jobTitle": "Lead QA Engineer",
+    "date": "2026-10-01",
+    "time": "11:00",
+    "type": "video",
+    "link": "https://meet.google.com/integration-test",
+    "id": "62158e0f-2d29-460a-988f-1121e1ab25c3",
+    "recruiterId": "407d27e8-e2fb-4258-a9d2-e642b63f9bf0",
+    "status": "Scheduled",
+    "createdAt": "2026-09-19T14:51:57.886Z"
+  },
+  {
+    "applicationId": "6fd4773b-a15e-4c24-8d03-bf39451a4dc8",
+    "candidateId": "17e951ef-15b0-44d8-86b6-ebaf39255773",
+    "candidateName": "Candidate User",
+    "candidateEmail": "cand_1789832561877@test.com",
+    "jobId": 1789832562222,
+    "jobTitle": "Lead QA Engineer",
+    "date": "2026-10-01",
+    "time": "11:00",
+    "type": "video",
+    "link": "https://meet.google.com/integration-test",
+    "id": "338df145-9d37-488a-9ae2-485b9eef561c",
+    "recruiterId": "5337fceb-f0bc-438e-9a57-e77ddcc5a140",
+    "status": "Scheduled",
+    "createdAt": "2026-09-19T15:42:42.300Z"
   }
 ]

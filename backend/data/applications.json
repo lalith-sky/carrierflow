@@ -75,5 +75,27 @@
     "status": "shortlisted",
     "date": "2026-09-19T14:20:04.398Z",
     "updatedAt": "2026-09-19T14:20:04.419Z"
+  },
+  {
+    "jobId": 1789829517817,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "aba10427-5a60-4ab0-a610-c8c496e8d655",
+    "userId": "db61aaf5-2097-4e43-a1fc-98b50cabce0d",
+    "email": "cand_1789829517478@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T14:51:57.857Z",
+    "updatedAt": "2026-09-19T14:51:57.872Z"
+  },
+  {
+    "jobId": 1789832562222,
+    "coverLetter": "Exemplary applicant for automated testing.",
+    "id": "6fd4773b-a15e-4c24-8d03-bf39451a4dc8",
+    "userId": "17e951ef-15b0-44d8-86b6-ebaf39255773",
+    "email": "cand_1789832561877@test.com",
+    "name": "Candidate User",
+    "status": "shortlisted",
+    "date": "2026-09-19T15:42:42.267Z",
+    "updatedAt": "2026-09-19T15:42:42.285Z"
   }
 ]

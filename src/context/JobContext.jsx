@@ -41,13 +41,6 @@ export const AppProvider = ({ children }) => {
     fetchPublicData();
   }, []);
 
-  // Fetch user-specific data when logged in
-  useEffect(() => {
-    if (user && getToken()) {
-      fetchUserData();
-    }
-  }, [user]);
-
   const fetchUserData = async () => {
     try {
       const [apps, notifs] = await Promise.all([
@@ -65,6 +58,13 @@ export const AppProvider = ({ children }) => {
       console.error('Error fetching user data:', err);
     }
   };
+
+  // Fetch user-specific data when logged in
+  useEffect(() => {
+    if (user && getToken()) {
+      fetchUserData();
+    }
+  }, [user]);
 
   // Auth actions
   const register = async (formData) => {

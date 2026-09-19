@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { User, Mail, MapPin, Briefcase, FileText, Calendar } from 'lucide-react';
+import { User, Mail, MapPin, Briefcase, Calendar } from 'lucide-react';
 import { useApp } from '../context/JobContext';
 import { recruiterAPI, interviewsAPI } from '../services/api';
 
@@ -12,17 +12,20 @@ const RecruiterCandidates = () => {
   const [interviewData, setInterviewData] = useState({ date: '', time: '', type: 'Video', meetingLink: '' });
 
   useEffect(() => {
-    if (user?.role === 'employer') fetchCandidates();
-  }, [user]);
-
-  const fetchCandidates = async () => {
-    try {
-      const data = await recruiterAPI.getCandidates();
-      setCandidates(data);
-    } catch {} finally {
-      setLoading(false);
+    let active = true;
+    if (user?.role === 'employer') {
+      recruiterAPI.getCandidates().then(data => {
+        if (active) {
+          setCandidates(Array.isArray(data) ? data : []);
+          setLoading(false);
+        }
+      }).catch(err => {
+        console.error('Failed to fetch candidates:', err);
+        if (active) setLoading(false);
+      });
     }
-  };
+    return () => { active = false; };
+  }, [user]);
 
   const handleScheduleInterview = async (e) => {
     e.preventDefault();

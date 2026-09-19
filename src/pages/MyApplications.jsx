@@ -69,7 +69,7 @@ const MyApplications = () => {
                       <h3 style={{ fontSize: '1.2rem', margin: '0 0 0.2rem 0', color: 'var(--text-main)' }}>{app.jobTitle}</h3>
                       <p style={{ color: 'var(--primary)', fontWeight: '600', fontSize: '0.95rem', margin: 0 }}>{app.company}</p>
                       <p style={{ color: 'var(--text-dim)', fontSize: '0.8rem', marginTop: '0.35rem' }}>
-                        Applied on {new Date(app.date || app.createdAt || Date.now()).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                        Applied on {app.date || app.createdAt ? new Date(app.date || app.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Recently'}
                       </p>
                     </div>
                   </div>

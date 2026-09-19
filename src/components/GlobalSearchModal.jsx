@@ -10,11 +10,11 @@ const GlobalSearchModal = ({ isOpen, onClose }) => {
   const inputRef = useRef(null);
 
   useEffect(() => {
+    let timer;
     if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 50);
-    } else {
-      setQuery('');
+      timer = setTimeout(() => inputRef.current?.focus(), 50);
     }
+    return () => clearTimeout(timer);
   }, [isOpen]);
 
   useEffect(() => {

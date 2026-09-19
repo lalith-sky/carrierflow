@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Briefcase, Plus, Eye, Trash2, Edit2 } from 'lucide-react';
+import { Briefcase, Plus, Eye, Trash2 } from 'lucide-react';
 import { useApp } from '../context/JobContext';
 import { recruiterAPI, jobsAPI } from '../services/api';
 
@@ -10,17 +10,20 @@ const RecruiterJobs = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (user?.role === 'employer') fetchJobs();
-  }, [user]);
-
-  const fetchJobs = async () => {
-    try {
-      const data = await recruiterAPI.getJobs();
-      setJobs(data);
-    } catch {} finally {
-      setLoading(false);
+    let active = true;
+    if (user?.role === 'employer') {
+      recruiterAPI.getJobs().then(data => {
+        if (active) {
+          setJobs(Array.isArray(data) ? data : []);
+          setLoading(false);
+        }
+      }).catch(err => {
+        console.error('Failed to fetch jobs:', err);
+        if (active) setLoading(false);
+      });
     }
-  };
+    return () => { active = false; };
+  }, [user]);
 
   const handleDelete = async (id) => {
     if (!confirm('Delete this job?')) return;

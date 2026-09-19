@@ -8,20 +8,20 @@ export default function Companies() {
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetchCompanies();
-  }, []);
-
   const fetchCompanies = async () => {
     try {
       const data = await companiesAPI.getAll();
-      setCompanies(data);
+      setCompanies(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error('Error fetching companies:', err);
     } finally {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    fetchCompanies();
+  }, []);
 
   const filteredCompanies = companies.filter(company =>
     company.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||

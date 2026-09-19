@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Upload, FileText, Trash2, Download, CheckCircle, AlertCircle, Sparkles, Award } from 'lucide-react';
+import { Upload, FileText, Trash2, Sparkles, Award } from 'lucide-react';
 import { useApp } from '../context/JobContext';
 import { resumeAPI } from '../services/api';
-import { Card, Button, Badge, Alert } from '../components/ui/UIComponents';
+import { Card, Button, Alert } from '../components/ui/UIComponents';
 
 const ResumeManager = () => {
   const { user } = useApp();
@@ -13,20 +13,21 @@ const ResumeManager = () => {
   const [uploading, setUploading] = useState(false);
   const [message, setMessage] = useState({ type: '', text: '' });
 
-  const fetchResumes = useCallback(async () => {
-    try {
-      const data = await resumeAPI.getAll();
-      setResumes(Array.isArray(data) ? data : []);
-    } catch (err) {
-      console.error('Error fetching resumes:', err);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
   useEffect(() => {
-    if (user) fetchResumes();
-  }, [user, fetchResumes]);
+    let active = true;
+    if (user) {
+      resumeAPI.getAll().then(data => {
+        if (active) {
+          setResumes(Array.isArray(data) ? data : []);
+          setLoading(false);
+        }
+      }).catch(err => {
+        console.error('Error fetching resumes:', err);
+        if (active) setLoading(false);
+      });
+    }
+    return () => { active = false; };
+  }, [user]);
 
   if (!user) {
     return (
@@ -56,7 +57,8 @@ const ResumeManager = () => {
     setUploading(true);
     try {
       await resumeAPI.upload(file);
-      await fetchResumes();
+      const fresh = await resumeAPI.getAll();
+      setResumes(Array.isArray(fresh) ? fresh : []);
       setMessage({ type: 'success', text: 'Resume uploaded successfully!' });
     } catch (err) {
       setMessage({ type: 'error', text: err.message || 'Failed to upload resume.' });
@@ -72,7 +74,7 @@ const ResumeManager = () => {
       setResumes(r => r.filter(res => res.id !== id));
       setMessage({ type: 'success', text: 'Resume deleted.' });
     } catch (err) {
-      setMessage({ type: 'error', text: 'Failed to delete resume.' });
+      setMessage({ type: 'error', text: err.message || 'Failed to delete resume.' });
     }
     setTimeout(() => setMessage({ type: '', text: '' }), 3000);
   };
@@ -147,7 +149,7 @@ const ResumeManager = () => {
                 <FileText size={24} color="var(--primary)" />
                 <div>
                   <div style={{ fontWeight: '600', color: 'var(--text-main)' }}>{res.filename || 'Resume Document'}</div>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Uploaded on {new Date(res.uploadedAt || Date.now()).toLocaleDateString()}</div>
+                  <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Uploaded on {res.uploadedAt ? new Date(res.uploadedAt).toLocaleDateString() : 'Recently'}</div>
                 </div>
               </div>
 

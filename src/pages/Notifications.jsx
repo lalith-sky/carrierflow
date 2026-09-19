@@ -61,7 +61,7 @@ const Notifications = () => {
                     <div style={{ flex: 1 }}>
                       <h4 style={{ fontSize: '1rem', margin: '0 0 0.25rem 0', color: 'var(--text-main)' }}>{notif.title}</h4>
                       <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', margin: '0 0 0.5rem 0' }}>{notif.message}</p>
-                      <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>{new Date(notif.createdAt || Date.now()).toLocaleString()}</span>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>{notif.createdAt ? new Date(notif.createdAt).toLocaleString() : 'Just now'}</span>
                     </div>
                   </div>
                 </Card>
@@ -86,7 +86,7 @@ const Notifications = () => {
                     <div style={{ flex: 1 }}>
                       <h4 style={{ fontSize: '0.95rem', margin: '0 0 0.25rem 0', color: 'var(--text-main)' }}>{notif.title}</h4>
                       <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', margin: '0 0 0.35rem 0' }}>{notif.message}</p>
-                      <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>{new Date(notif.createdAt || Date.now()).toLocaleString()}</span>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>{notif.createdAt ? new Date(notif.createdAt).toLocaleString() : 'Recently'}</span>
                     </div>
                   </div>
                 </Card>

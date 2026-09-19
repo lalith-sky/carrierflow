@@ -36,10 +36,6 @@ const JobListings = () => {
     page: 1
   });
 
-  useEffect(() => {
-    fetchJobs();
-  }, [filters.page, filters.sort, filters.category, filters.type, filters.workMode]);
-
   const fetchJobs = async () => {
     setLoading(true);
     try {
@@ -49,21 +45,27 @@ const JobListings = () => {
       if (filters.category !== 'All') params.category = filters.category;
       if (filters.type !== 'All') params.type = filters.type;
       if (filters.workMode !== 'All') params.workMode = filters.workMode;
-      if (filters.experience !== 'All') params.experience = filters.experience;
-      params.sort = filters.sort;
-      params.page = filters.page;
-      params.limit = 12;
 
       const data = await jobsAPI.getAll(params);
-      setJobs(data.jobs || []);
-      setTotal(data.total || 0);
-      setTotalPages(data.totalPages || 1);
+      let list = Array.isArray(data) ? data : data.jobs || [];
+
+      if (filters.sort === 'salary-high') {
+        list.sort((a, b) => (parseInt(b.salary) || 0) - (parseInt(a.salary) || 0));
+      } else if (filters.sort === 'newest') {
+        list.sort((a, b) => new Date(b.postedAt || 0) - new Date(a.postedAt || 0));
+      }
+
+      setJobs(list);
     } catch (err) {
       console.error('Error fetching jobs:', err);
     } finally {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    fetchJobs();
+  }, [filters.page, filters.sort, filters.category, filters.type, filters.workMode]);
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();

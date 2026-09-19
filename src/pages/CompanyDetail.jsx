@@ -9,10 +9,6 @@ export default function CompanyDetail() {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchCompanyData();
-  }, [id]);
-
   const fetchCompanyData = async () => {
     try {
       const [companyData, jobsData] = await Promise.all([
@@ -20,13 +16,17 @@ export default function CompanyDetail() {
         jobsAPI.getAll({ companyId: id })
       ]);
       setCompany(companyData);
-      setJobs(jobsData.jobs || []);
+      setJobs(Array.isArray(jobsData) ? jobsData : jobsData?.jobs || []);
     } catch (err) {
       console.error('Error fetching company:', err);
     } finally {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    fetchCompanyData();
+  }, [id]);
 
   if (loading) {
     return (

@@ -23,7 +23,13 @@ const Navbar = () => {
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
 
-  useEffect(() => { setIsMenuOpen(false); setShowProfileMenu(false); }, [location]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsMenuOpen(false);
+      setShowProfileMenu(false);
+    }, 0);
+    return () => clearTimeout(timer);
+  }, [location.pathname]);
 
   const handleLogout = () => { logout(); navigate('/'); };
   const isActive = (path) => location.pathname === path;

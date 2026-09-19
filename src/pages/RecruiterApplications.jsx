@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, User, Eye } from 'lucide-react';
 import { useApp } from '../context/JobContext';
@@ -12,22 +12,21 @@ const RecruiterApplications = () => {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('All');
 
-  const fetchApplications = useCallback(async () => {
-    try {
-      const data = await applicationsAPI.getAll();
-      setApplications(Array.isArray(data) ? data : data.applications || []);
-    } catch (err) {
-      console.error('Error fetching applications:', err);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
   useEffect(() => {
+    let active = true;
     if (user?.role === 'employer' || user?.role === 'recruiter') {
-      fetchApplications();
+      applicationsAPI.getAll().then(data => {
+        if (active) {
+          setApplications(Array.isArray(data) ? data : data?.applications || []);
+          setLoading(false);
+        }
+      }).catch(err => {
+        console.error('Error fetching applications:', err);
+        if (active) setLoading(false);
+      });
     }
-  }, [user, fetchApplications]);
+    return () => { active = false; };
+  }, [user]);
 
   const handleStatusChange = async (id, newStatus) => {
     try {
@@ -106,7 +105,7 @@ const RecruiterApplications = () => {
                       </div>
                     </td>
                     <td style={{ padding: '1rem 1.25rem', fontWeight: '500', color: 'var(--text-main)' }}>{app.jobTitle}</td>
-                    <td style={{ padding: '1rem 1.25rem', color: 'var(--text-muted)' }}>{new Date(app.date || app.createdAt || Date.now()).toLocaleDateString()}</td>
+                    <td style={{ padding: '1rem 1.25rem', color: 'var(--text-muted)' }}>{app.date || app.createdAt ? new Date(app.date || app.createdAt).toLocaleDateString() : 'Recently'}</td>
                     <td style={{ padding: '1rem 1.25rem' }}>
                       <select
                         value={app.status}

@@ -16,25 +16,26 @@ const CandidateProfile = () => {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [newSkill, setNewSkill] = useState('');
-
-  const fetchProfile = useCallback(async () => {
-    try {
-      const d = await profileAPI.get();
-      if (d.profile) setProfile(prev => ({ ...prev, ...d.profile }));
-    } catch (err) {
-      console.error('Error fetching profile:', err);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
+  const [formData, setFormData] = useState({});
 
   useEffect(() => {
+    let active = true;
     if (user) {
-      fetchProfile();
+      profileAPI.get().then(data => {
+        if (active && data) {
+          setProfile(data);
+          setFormData(prev => ({ ...prev, ...data }));
+          setLoading(false);
+        }
+      }).catch(err => {
+        console.error('Error fetching profile:', err);
+        if (active) setLoading(false);
+      });
     } else {
       setLoading(false);
     }
-  }, [user, fetchProfile]);
+    return () => { active = false; };
+  }, [user]);
 
   if (!user) {
     return (
